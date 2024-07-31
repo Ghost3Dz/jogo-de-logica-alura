@@ -1,5 +1,5 @@
 let listaDeSorteio = [];
-let numeroLimite = 10;
+let numeroLimite = prompt ('Qual a dificuldade máxima você gostaria?');
 while (numeroLimite <= 0) {
     numeroLimite = prompt ('Favor selecionar um número válido');
 }
